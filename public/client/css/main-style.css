@@ -1,0 +1,911 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#header {
+    background-color: #ebe7e7;
+}
+
+#top-header {
+    color: #7C8693;
+    font-size: 0.875rem;
+    padding: 7px 0px;
+    border-bottom: 1px solid #363636;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #fff;
+    text-transform: initial;
+    z-index: 2;
+
+}
+
+.dropdown-content .dropdown-item {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #5c5b5b;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#home-nav.navbar {
+    padding: 0;
+}
+
+.cart {
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 39%;
+    bottom: 36%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-caption h1 {
+    font-weight: 900;
+    color: #e2524a;
+}
+
+.carousel-indicators li.active {
+    width: 50px;
+    background-color: #e2524a;
+}
+
+.carousel-indicators li {
+    width: 50px;
+    background-color: #282828;
+}
+
+#home-slide {
+    margin-bottom: 40px;
+}
+
+#commit-freeship-support .box {
+    background: #f4f4f4;
+    padding: 13px 0px 20px 0px;
+
+
+}
+
+#commit-freeship-support .box .box-text {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#commit-freeship-support .box .box-icon {
+    font-size: 2rem;
+    color: #888787;
+}
+
+#commit-freeship-support {
+    margin-bottom: 160px;
+
+}
+
+.box .box-body {
+    padding: 20px 0px 78px 0px;
+}
+
+.box .box-body .product-info {
+    font-size: 0.875rem;
+    color: #514545;
+}
+
+.box .box-body .product-info .rate-and-comment {
+    color: #ffa500;
+}
+
+.box .box-body .product-info .rate-and-comment .comment {
+    color: #767e86;
+}
+
+.box .box-body .product-info a.product-name:hover {
+    color: #e2524a;
+}
+
+.box .box-head h2 {
+    font-weight: bold;
+    color: #343434;
+    font-size: 1.875rem;
+}
+
+#category {
+    margin-bottom: 80px;
+}
+
+#category .shoe {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#category .read-more p {
+    line-height: 31px;
+    text-align: justify;
+    padding: 10px 0px 10px 0px;
+}
+
+#category .read-more button.see-more-about-us {
+    text-transform: uppercase;
+}
+
+#category .aboutUS {
+    border-bottom: 3px solid #ccc;
+    padding: 10px 0px 20px 0px;
+}
+
+#category .read-more .see-more {
+    background-color: #000;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+.box.selling-product .box-body {
+    padding-bottom: 20px;
+}
+
+
+.box.lastest-blog .card .card-body {
+    padding: 0rem 1.5rem 2rem 1.5rem;
+}
+
+.box.lastest-blog .card .card-body .fashion {
+    font-size: 0.75rem;
+    color: #282828;
+
+}
+
+.box.lastest-blog .card .card-body .date {
+    font-size: 0.875rem;
+    color: #6c757d;
+
+
+}
+
+.box.lastest-blog .card .card-body h5.card-title {
+    font-size: 1rem;
+    margin-bottom: 0px;
+}
+
+.box.lastest-blog .card .card-body p.card-text {
+    font-size: 0.875rem;
+}
+
+.box.lastest-blog .box-body {
+    padding-bottom: 30px;
+}
+
+#show-more {
+    margin-bottom: 64px;
+}
+
+#show-more .see-more {
+    font-weight: 500;
+    text-decoration: none;
+    color: #585858;
+}
+
+#show-more .see-more:hover {
+    color: #474747;
+}
+
+#footer {
+    background-color: #6c757d;
+    padding-top: 65px;
+    padding-bottom: 72px;
+}
+
+#footer .box {
+    padding: 0px 20px 0px 20px;
+}
+
+#footer .box .box-body {
+    padding: 10px 0px 10px 0px;
+}
+
+#footer .box .box-head h6 {
+    color: #c5a909;
+    margin-bottom: 0px;
+}
+#footer .box .box-body ul li a {
+    font-size: 1rem;
+}
+
+#footer .box .box-body ul li a {
+    font-size: 1rem;
+}
+
+#footer .box .box-body ul li .phone {
+    font-size: 1rem;
+}
+#footer .box .box-body ul li a:hover{
+    color: #c5a909 !important;
+}
+#copyright {
+    padding: 11px 0px;
+    background-color: #474c51 !important;
+}
+
+#copyright .text-copyright {
+    margin-bottom: 0px;
+    font-size: 0.875rem;
+}
+
+.box .box-head h2 {
+    font-size: 1.125rem !important;
+}
+
+.box .box-head p {
+    font-size: 0.875rem !important;
+}
+
+#home-nav .navbar-brand {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-menu li.menu-item {
+    position: relative;
+}
+
+#main-menu li.menu-item a {
+    display: block;
+    padding: 32px 11px;
+    text-decoration: none;
+    color: #7C8693;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.25s ease-in-out;
+    letter-spacing: -0.5px;
+}
+
+#main-menu li.menu-item.has-child>a::after {
+    font-family: "Font Awesome 6 Free";
+    content: '\f078';
+    font-weight: 600;
+    position: absolute;
+    top: 0px;
+    right: -3px;
+    font-size: 12px;
+    padding: 33px 0px;
+}
+
+#main-menu li.menu-item:hover>a,
+#main-menu ul.sub-menu li:hover a {
+    color: #af9b29;;
+}
+#main-menu ul.sub-menu li:hover a{
+    color: #af9b29;
+}
+
+#main-menu ul.sub-menu a {
+    color: #5c5b5b;
+    padding: 4px 30px;
+    font-size: 14px;
+}
+
+#main-menu ul.sub-menu {
+    position: absolute;
+    z-index: 2;
+    background-color: #fff;
+    list-style: none;
+    padding: 0;
+    width: 220px;
+    padding: 20px 0px;
+    display: none;
+}
+
+#main-menu li.menu-item:hover ul.sub-menu {
+    display: block;
+}
+
+nav#home-nav .wp-search-cart {
+    padding: 24px 0px;
+}
+
+nav#home-nav .wp-search-cart input.search-form {
+    padding: 4px 30px 4px 10px;
+    outline: none;
+    border-radius: 50px;
+    border: none;
+    font-size: 14px;
+}
+
+nav#home-nav .wp-search-cart input.search-form::placeholder {
+    font-size: 14px;
+    color: #363636;
+    font-weight: 500;
+}
+
+nav#home-nav .wp-search-cart form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav#home-nav .wp-search-cart button.search {
+    position: absolute;
+    right: 0px;
+    /* border-radius: 20px; */
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    padding: 4px 12px;
+    outline: none;
+    background-color: #343a40;
+    font-size: 14px;
+    color: #fff;
+
+}
+
+.cart {
+    display: block;
+    margin-left: 10px;
+    font-size: 18px;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.num-product-cart {
+    position: absolute;
+    background-color: #ff0000;
+    top: 0px;
+    right: -8px;
+    /* padding: 1px 7px; */
+    width: 20px;
+    height: 19px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav#home-nav ul#main-menu {
+    display: none;
+}
+
+nav#home-nav .wp-search-cart {
+    display: none;
+}
+
+.navbar-toggle {
+    color: #413f3f;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+
+}
+.color-white{
+    color: #fff;
+}
+.bg-red {
+    background: #b60909;
+}
+
+#bottom-header {
+    position: relative;
+}
+
+.wp-responsive {
+    position: absolute;
+    top: 79px;
+    z-index: 20;
+    background-color: rgb(0, 0, 0, 0.95);
+    width: 100%;
+    left: 0px;
+    display: none;
+}
+
+ul#menu-responsive {
+    padding: 15px 0px;
+}
+
+ul#menu-responsive li.menu-item {
+    position: relative;
+    border-bottom: 1px solid #1c1c1c;
+
+}
+
+ul#menu-responsive li.menu-item a {
+    padding: 10px 30px 10px 30px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.25s ease-in-out;
+}
+
+ul#menu-responsive li.menu-item:hover>a {
+    color: #e2524a;
+}
+
+ul#menu-responsive ul.sub-menu {
+    list-style: none;
+    padding: 10px 0px;
+    background-color: rgba(26, 26, 26, 0.8);
+}
+
+ul#menu-responsive ul.sub-menu li a {
+    list-style: none;
+    padding: 10px 40px;
+    transition: all 0.1s ease-in-out;
+
+}
+
+ul#menu-responsive ul.sub-menu li:hover a {
+    background: #e2524a;
+
+}
+
+.responsive-menu-toggle {
+    position: absolute;
+    color: #fff;
+    right: 20px;
+    top: 0px;
+    padding: 13px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+.responsive-menu-toggle.open {
+    transform: rotate(180deg);
+
+}
+
+.wp-responsive-cart-search .search-responsive {
+    margin: 0px 10px;
+    padding: 15px;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.wp-responsive-cart-search input.search-form-responsive {
+    position: absolute;
+    bottom: -21px;
+    right: 71px;
+    z-index: 30;
+    padding: 4px 15px;
+    outline: none;
+    border: 3px solid rgb(204, 204, 204);
+}
+
+.wp-responsive-cart-search .search-responsive:hover {
+    background: #343434;
+}
+
+.wp-responsive-cart-search-navbar_toggle {
+    display: flex;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block;
+}
+
+.bg-gray {
+    background: #343434;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    background: #343434;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover {
+    background: #e2524a;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-prev span {
+    padding: 5px 10px !important;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    color: #fff;
+
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    background: #343434;
+}
+
+.owl-carousel .owl-nav button.owl-next span {
+    padding: 5px 10px !important;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    color: #fff;
+
+}
+
+.show-more .see-more {
+    transition: all 0.25s ease-in-out;
+}
+
+.show-more .see-more:hover {
+    background: #e2524a;
+    color: #fff !important;
+}
+
+#top-header {
+    display: none;
+}
+
+.box .box-body .product-item .product-info .product-name {
+    color: #514545;
+    font-weight: 600;
+}
+
+.product-thumb img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* card  */
+#card h2.title-card {
+    margin-bottom: 30px;
+    color: #af9b29;
+}
+
+#card .row {
+    margin-bottom: 20px;
+}
+
+#card .row .card a {
+    text-decoration: none;
+    color: #af9b29;
+}
+
+#card .row .card a:hover {
+    color: #9c8a24;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.card:hover .card-title {
+    transform: translateY(-5px);
+}
+
+#card .card-body h5 {
+    margin-bottom: 0px;
+}
+
+#card .card-body {
+    padding: 1.5rem !important;
+}
+
+/* end card  */
+/* flex-container  */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    /* Stack items vertically on small screens */
+    align-items: flex-start;
+    /* Align the items to the start of the container */
+}
+
+.flex-item {
+    width: 100%;
+    /* Make each item take full width on small screens */
+    text-align: justify;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.flex-item h5 {
+    color: #af9b29;
+}
+
+.flex-item:nth-child(odd) {
+    padding-right: 5px;
+}
+
+.flex-item:nth-child(even) {
+    padding-left: 5px;
+}
+#intro-why{
+    margin-bottom: 50px;
+}
+#intro-why .col-md-4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container.image2vexpress{
+    margin-bottom:  40px;
+}
+
+.product-thumb.fast-moving{
+    background-color: aliceblue;
+}
+/* comment-customer  */
+#comment-customer h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.comment {
+    display: flex;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.customer-avatar {
+    margin-right: 15px;
+}
+
+.customer-avatar img {
+    width: 175px;
+    height: 105px;
+    border-radius: 50%;
+    object-fit: cover;  /* Giữ tỷ lệ ảnh chuẩn */
+}
+
+.comment-text h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.comment-text p {
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #555;
+    font-style: italic;
+}
+.container .comment-customer{
+    margin-bottom: 50px;
+}
+/* end comment-customer  */
+
+/* footer */
+#footer .container h5{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+/* end footer  */
+/* Căn chỉnh các icon vào góc phải màn hình */
+/* Container cho các icon */
+/* Container cho các icon */
+/* Container cho các icon */
+.floating-icons {
+    position: fixed;
+    right: 20px; /* Căn từ bên phải */
+    bottom: 20px; /* Căn từ dưới màn hình */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 9999;
+}
+
+/* Định dạng cho mỗi icon */
+.social-icon {
+    width: 50px; /* Giữ khung chứa lớn hơn */
+    height: 50px; /* Giữ khung chứa lớn hơn */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    position: relative; /* Để hiệu ứng sóng hoạt động */
+    overflow: hidden; /* Giới hạn phần sóng ra ngoài icon */
+    border-radius: 50%; /* Bo tròn icon */
+    background-color: #fff; /* Nền trắng (tuỳ chọn) */
+    animation: rippleEffect 3s ease-in-out infinite; /* Hiệu ứng sóng cho tất cả icon */
+}
+
+/* Định dạng cho hình ảnh trong icon */
+.social-icon img {
+    border-radius: 50%; /* Bo tròn ảnh */
+    width: 35px; /* Thu nhỏ icon xuống còn 40px */
+    height: 35px; /* Thu nhỏ icon xuống còn 40px */
+    object-fit: cover; /* Đảm bảo ảnh luôn bao phủ toàn bộ icon */
+    animation: shake 1s ease-in-out infinite; /* Lắc nhanh hơn */
+}
+
+/* Hiệu ứng rung tại chỗ (rung nhẹ hoặc xoay) */
+@keyframes shake {
+    0% {
+        transform: rotate(0deg); /* Không xoay */
+    }
+    30% {
+        transform: rotate(15deg); /* Xoay mạnh sang phải */
+    }
+    50% {
+        transform: rotate(-15deg); /* Xoay mạnh sang trái */
+    }
+    70% {
+        transform: rotate(15deg); /* Xoay mạnh sang phải */
+    }
+    90% {
+        transform: rotate(0deg); /* Quay về vị trí ban đầu */
+    }
+    100% {
+        transform: rotate(0deg); /* Dừng lại hoàn toàn trước khi bắt đầu lại */
+    }
+}
+
+/* Hiệu ứng sóng loang màu (mở rộng hơn) */
+@keyframes rippleEffect {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.6); /* Màu xanh dương cho icon đầu tiên */
+    }
+    50% {
+        box-shadow: 0 0 30px 20px rgba(0, 123, 255, 0.3); /* Sóng lan tỏa mạnh và rộng hơn */
+    }
+    100% {
+        box-shadow: 0 0 50px 40px rgba(0, 123, 255, 0); /* Sóng phai dần với độ rộng lớn hơn */
+    }
+}
+
+/* Đặt delay riêng biệt cho mỗi icon */
+#phone-icon {
+    animation-delay: 2s; /* Sóng loang bắt đầu sau 2 giây */
+    animation-name: rippleEffectPhone; /* Chỉ sử dụng hiệu ứng sóng màu Zalo */
+}
+#zalo-icon {
+    animation-delay: 0s; /* Sóng loang ngay lập tức */
+    animation-name: rippleEffectZalos; /* Chỉ sử dụng hiệu ứng sóng màu Facebook */
+}
+
+#facebook-icon {
+    animation-delay: 1s; /* Sóng loang bắt đầu sau 1 giây */
+    animation-name: rippleEffectFacebook; /* Chỉ sử dụng hiệu ứng sóng màu WhatsApp */
+}
+
+#location-icon {
+    animation-delay: 2s; /* Sóng loang bắt đầu sau 2 giây */
+    animation-name: rippleEffectLocation; /* Chỉ sử dụng hiệu ứng sóng màu Zalo */
+}
+
+/* Định nghĩa hiệu ứng sóng cho các icon khác nhau */
+@keyframes rippleEffectPhone {
+    0% {
+        box-shadow: 0 0 0 0 #2BBC00 /* Màu sóng Zalo */
+    }
+    50% {
+        box-shadow: 0 0 50px 20px rgb(203, 47, 89, 0.2);
+    }
+    100% {
+        box-shadow: 0 0 60px 40px rgba(0, 136, 255, 0.1);
+    }
+}
+@keyframes rippleEffectZalos {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 88, 217, 0.8); /* Màu sóng ban đầu (xanh dương đậm) */
+    }
+    50% {
+        box-shadow: 0 0 30px 20px rgba(59, 89, 152, 0.3);
+    }
+    100% {
+        box-shadow: 0 0 50px 40px rgba(59, 89, 152, 0);
+    }
+}
+
+@keyframes rippleEffectFacebook {
+    0% {
+        box-shadow: 0 0 0 0 rgba(28, 117, 239, 0.8);
+    }
+    50% {
+        box-shadow: 0 0 30px 20px rgba(28, 111, 226, 0.3);
+    }
+    100% {
+        box-shadow: 0 0 50px 40px rgba(37, 211, 102, 0);
+    }
+}
+
+@keyframes rippleEffectLocation {
+    0% {
+        box-shadow: 0 0 0 0 #de2b5b /* Màu sóng Zalo */
+    }
+    50% {
+        box-shadow: 0 0 50px 20px rgb(203, 47, 89, 0.2);
+    }
+    100% {
+        box-shadow: 0 0 60px 40px rgba(0, 136, 255, 0.1);
+    }
+}
+
+/* Hiệu ứng khi hover (di chuột qua) */
+.social-icon:hover img {
+    transform: scale(1.1); /* Phóng to icon khi hover */
+}
+#zalo-icon{
+    background-color: #0058D9;
+}
+#location-icon{
+    background-color: #de2b5b;
+}
+#facebook-icon{
+background-color: #1C75EF;
+}
+#phone-icon{
+    background-color: #2BBC00;
+}
+/* breadcum */
+#breadcrumb-nav{
+    padding: 20px 0px 20px 0px;
+}
+#breadcrumb-nav.post{
+    padding: 20px 0px 20px 15px;
+}
+#breadcrumb-nav ol{
+    margin-bottom: 0px !important;
+}
+.breadcrumb {
+    background-color: transparent;  /* Không có nền */
+    padding: 0;  /* Loại bỏ padding nếu không cần */
+  }
+
+  .breadcrumb-item {
+    color: #007bff;  /* Thay đổi màu chữ của các breadcrumb item */
+  }
+
+  .breadcrumb-item.active {
+    color: #6c757d;  /* Màu chữ cho phần tử active (trang hiện tại) */
+  }
+/* pagination  */
+#pagination-post{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+/* end pagination  */

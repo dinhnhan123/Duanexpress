@@ -1,0 +1,4 @@
+.grid-style [class^="col"]{
+   background-color: #ccc;
+   border: 1px solid #ddd;
+}
